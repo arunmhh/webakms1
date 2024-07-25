@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        header{
+            margin: auto;
+            border: 2px solid red;
+            width: 1200%;
+        }
+        .navbar {
+            background-color: black;
+            padding: 13px;
+            border-radius: 10px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 13px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+
+        }
+        .navbar li a:hover {
+            background-color: red;
+
+        }
+
+        .search {
+            float: right;
+            color: wheat;
+            margin: 13px 13px;
+        }
+        .navbar input{
+            border: 2px;
+            border-radius: 10px;
+            width: 150px;
+            
+        }
+        img{
+            width: 30px;
+            display: block;
+            width: 40px;
+        }
+        
+
+        h3{
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="top">
+        <img src="/tea in mountains.png" alt="tea in mountains">
+        <h3>Enjoy the coffee in mountains</h3>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact US</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search this site">
+            </div>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
